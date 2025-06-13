@@ -73,3 +73,4 @@ C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net6.0\refint\EmprestimoL
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net6.0\EmprestimoLivros.pdb
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net6.0\EmprestimoLivros.genruntimeconfig.cache
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net6.0\ref\EmprestimoLivros.dll
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net6.0\EmprestimoLivros.sourcelink.json

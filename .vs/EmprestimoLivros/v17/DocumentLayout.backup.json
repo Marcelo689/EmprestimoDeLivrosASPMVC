@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\emprestimolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:emprestimolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\models\\emprestimosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:models\\emprestimosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\emprestimolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:emprestimolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,15 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Emprestimo\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimo\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Emprestimo\\Excluir.cshtml",
+              "RelativeToolTip": "Views\\Emprestimo\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T22:21:17.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Emprestimo\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimo\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Emprestimo\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Emprestimo\\Editar.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T21:54:13.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Emprestimo\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Emprestimo\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Emprestimo\\Cadastrar.cshtml",
+              "RelativeToolTip": "Views\\Emprestimo\\Cadastrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T21:12:16.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,7 +103,7 @@
               "RelativeDocumentMoniker": "Views\\Emprestimo\\Index.cshtml",
               "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Emprestimo\\Index.cshtml",
               "RelativeToolTip": "Views\\Emprestimo\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-13T20:39:05.406Z",
               "EditorCaption": ""
@@ -64,32 +111,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmprestimoLivros",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
-              "RelativeDocumentMoniker": "EmprestimoLivros.csproj",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
-              "RelativeToolTip": "EmprestimoLivros.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-13T20:38:39.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EmprestimoController.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Controllers\\EmprestimoController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmprestimoController.cs",
               "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Controllers\\EmprestimoController.cs",
               "RelativeToolTip": "Controllers\\EmprestimoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAWwEwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T20:38:26.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -97,12 +131,11 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T20:36:25.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:36:25.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -110,12 +143,24 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:15:38.08Z",
+              "WhenOpened": "2025-06-13T20:15:38.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmprestimosModel.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Models\\EmprestimosModel.cs",
+              "RelativeDocumentMoniker": "Models\\EmprestimosModel.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Models\\EmprestimosModel.cs",
+              "RelativeToolTip": "Models\\EmprestimosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:02:20.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -123,20 +168,19 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-13T20:02:30.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:02:30.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmprestimosModel.cs",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Models\\EmprestimosModel.cs",
-              "RelativeDocumentMoniker": "Models\\EmprestimosModel.cs",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Models\\EmprestimosModel.cs",
-              "RelativeToolTip": "Models\\EmprestimosModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:02:20.418Z",
+              "DocumentIndex": 6,
+              "Title": "EmprestimoLivros.csproj",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
+              "RelativeDocumentMoniker": "EmprestimoLivros.csproj",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
+              "RelativeToolTip": "EmprestimoLivros.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-13T20:38:39.476Z",
               "EditorCaption": ""
             }
           ]
