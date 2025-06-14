@@ -1,11 +1,20 @@
-﻿@model IEnumerable<EmprestimosModel>
+﻿@model IEnumerable<EmprestimoDTO>
 
 <div class="container">
     <div class="d-flex justify-content-between align-items-center mb-5">
         <h1>Empréstimos</h1>
-        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar">Cadastrar novo Empréstimo</a>
+        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-file-earmark-plus mx-2"></i>Cadastrar novo Empréstimo</a>
     </div>
-    <table class="table table-dark table-hover">
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-light" role="alert">@TempData["MensagemSucesso"]</div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger text-light" role="alert">@TempData["MensagemErro"]</div>
+    }
+    <table id="Emprestimos" class="table table-light table-hover mt-5">
         <thead>
             <tr>
                 <th scope="col">Recebedor</th>
@@ -27,10 +36,9 @@
                         <td>@emprestimo.DataUltimaAtualizacao</td>
                         <td>
                             <a asp-controller="Emprestimo" asp-action="Editar" 
-                                asp-route-id="@emprestimo.Id" 
-                                
-                                class="btn btn-warning mx-2">Editar</a>
-                            <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2">Excluir</a>
+                                asp-route-id="@emprestimo.Id"
+                               class="btn btn-warning mx-2"> <i class="bi bi-pencil-square mx-2"></i>Editar</a>
+                            <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2"><i class="bi bi-trash-fill mx-2"></i>Excluir</a>
                         </td>
                     </tr>
                 }
