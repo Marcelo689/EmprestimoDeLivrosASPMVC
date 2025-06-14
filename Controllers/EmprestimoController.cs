@@ -1,6 +1,9 @@
-﻿using EmprestimoLivros.Data;
+﻿
+using ClosedXML.Excel;
+using EmprestimoLivros.Data;
 using EmprestimoLivros.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace EmprestimoLivros.Controllers
 {
@@ -29,6 +32,7 @@ namespace EmprestimoLivros.Controllers
         {
             if (ModelState.IsValid)
             {
+                modelo.DataUltimaAtualizacao = DateTime.Now;
                 _db.Emprestimos.Add(modelo);
                 _db.SaveChanges();
 
@@ -54,7 +58,13 @@ namespace EmprestimoLivros.Controllers
         public IActionResult Editar(EmprestimosModel modelo)
         {
             if (ModelState.IsValid)
-            { 
+            {
+                var emprestimoDb = _db.Emprestimos.Find(modelo.Id);
+
+                emprestimoDb.Fornecedor = modelo.Fornecedor;
+                emprestimoDb.Recebedor  = modelo.Recebedor;
+                emprestimoDb.LivroEmprestado = modelo.LivroEmprestado;
+
                 _db.Update(modelo);
                 _db.SaveChanges();
                 TempData["MensagemSucesso"] = "Editado com sucesso!";
@@ -87,6 +97,46 @@ namespace EmprestimoLivros.Controllers
 
             TempData["MensagemSucesso"] = "Deletado com sucesso!";
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Exportar()
+        {
+            var dados = GetDados();
+
+            using (XLWorkbook workbook = new XLWorkbook())
+            {
+                workbook.AddWorksheet(dados, "Dados Emprestimo");
+
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    workbook.SaveAs(ms);
+                    return File(ms.ToArray(), "application/vnd.openxmlformats-officedocument.spredsheetml.sheet", "Emprestimo.xls");
+                }
+            }
+        }
+
+        private DataTable GetDados()
+        {
+            DataTable dataTable = new DataTable();
+
+            dataTable.TableName = "Dados emprestimo";
+
+            dataTable.Columns.Add("Recebedor", typeof(string));
+            dataTable.Columns.Add("Fornecedor", typeof(string));
+            dataTable.Columns.Add("Livro", typeof(string));
+            dataTable.Columns.Add("DataEmprestimo", typeof(string));
+
+            var dados = _db.Emprestimos.ToList();
+
+            if(dados.Count > 0)
+            {
+                dados.ForEach( emprestimo =>
+                {
+                    dataTable.Rows.Add(emprestimo.Recebedor, emprestimo.Fornecedor, emprestimo.LivroEmprestado, emprestimo.DataUltimaAtualizacao);
+                });
+            }
+
+            return dataTable;
         }
     }
 }
