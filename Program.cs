@@ -1,4 +1,5 @@
 using EmprestimoLivros.Data;
+using EmprestimoLivros.Services.EmprestimoService;
 using EmprestimoLivros.Services.LoginService;
 using EmprestimoLivros.Services.SenhaService;
 using EmprestimoLivros.Services.SessaoService;
@@ -12,6 +13,7 @@ string connectionString = builder.Configuration.GetConnectionString("DefaultConn
 builder.Services.AddDbContext<ApplicationDbContext>( options => options.UseSqlServer(connectionString));
 
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IEmprestimoInterface, EmprestimoService>();
 builder.Services.AddScoped<ILoginInterface, LoginService>();
 builder.Services.AddScoped<ISenhaInterface, SenhaService>();
 builder.Services.AddScoped<ISessaoInterface, SessaoService>();
