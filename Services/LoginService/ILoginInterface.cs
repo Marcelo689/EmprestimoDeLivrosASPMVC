@@ -6,5 +6,6 @@ namespace EmprestimoLivros.Services.LoginService
     public interface ILoginInterface
     {
         Task<ResponseModel<UsuarioModel>> RegistrarUsuario(UsuarioRegisterDTO dto);
+        Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDTO dto);
     }
 }
