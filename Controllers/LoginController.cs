@@ -72,7 +72,7 @@ namespace EmprestimoLivros.Controllers
                     return View(dto);
                 }
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Login");
             }
             return View(dto);
         }

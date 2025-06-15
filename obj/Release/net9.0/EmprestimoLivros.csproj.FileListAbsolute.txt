@@ -224,3 +224,12 @@ C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\refint\Emprestim
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\EmprestimoLivros.pdb
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\EmprestimoLivros.genruntimeconfig.cache
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\ref\EmprestimoLivros.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\ClosedXML.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\ClosedXML.Parser.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\DocumentFormat.OpenXml.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\ExcelNumberFormat.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\Newtonsoft.Json.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\RBush.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\SixLabors.Fonts.dll
+C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net9.0\System.IO.Packaging.dll
