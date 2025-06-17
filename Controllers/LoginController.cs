@@ -76,5 +76,28 @@ namespace EmprestimoLivros.Controllers
             }
             return View(dto);
         }
+
+        public async Task<IActionResult> Deletar()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Deletar(UsuarioLoginDTO dto)
+        {
+            var response = await LoginInterface.RemoverUsuario(dto.Email);
+
+            if (response.Status)
+            {
+                TempData["MensagemSucesso"] = response.Mensagem;
+            }
+            else
+            {
+                TempData["MensagemErro"] = response.Mensagem;
+            }
+
+            return View("Login", dto);
+        }
     }
 }

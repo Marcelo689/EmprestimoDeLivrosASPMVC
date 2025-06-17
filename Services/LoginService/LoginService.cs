@@ -3,6 +3,8 @@ using EmprestimoLivros.DTO;
 using EmprestimoLivros.Models;
 using EmprestimoLivros.Services.SenhaService;
 using EmprestimoLivros.Services.SessaoService;
+using System.Net;
+using System.Net.Mail;
 
 namespace EmprestimoLivros.Services.LoginService
 {
@@ -18,7 +20,36 @@ namespace EmprestimoLivros.Services.LoginService
             _sessaoInterface = sessaoInterface;
         }
 
+        public async Task<ResponseModel<UsuarioModel>> RemoverUsuario(string email)
+        {
+            var response = new ResponseModel<UsuarioModel>();
+            try
+            {
+                if(string.IsNullOrEmpty(email))
+                {
+                    response.Mensagem = "Email não encontrado!";
+                    response.Status = false;
+                }
 
+                var usuario = _context.Usuarios.FirstOrDefault(e => e.Email.ToLower() == email.ToLower());
+                if(usuario is null)
+                {
+                    response.Mensagem = "Email não encontrado!";
+                    response.Status = false;
+                }
+
+                response.Mensagem = "Login deletado com sucesso!";
+                _context.Usuarios.Remove(usuario);
+                _context.SaveChanges();
+                response.Dados = usuario;
+                return response;
+            }catch (Exception ex)
+            {
+                response.Status = false;
+                response.Mensagem = ex.Message;
+                return response;
+            }
+        }
         public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDTO dto)
         {
             var response = new ResponseModel<UsuarioModel>();

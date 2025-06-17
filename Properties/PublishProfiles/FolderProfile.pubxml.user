@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\marce\source\repos\EmprestimoLivros\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2025-06-15T19:33:01.9152767Z||;True|2025-06-14T12:41:59.3409449-03:00||;True|2025-06-14T10:03:44.1955121-03:00||;True|2025-06-14T09:40:20.7651388-03:00||;False|2025-06-14T09:31:02.8001358-03:00||;True|2025-06-14T09:10:20.5294679-03:00||;</History>
+    <History>True|2025-06-15T19:40:57.1443622Z||;True|2025-06-15T16:33:01.9152767-03:00||;True|2025-06-14T12:41:59.3409449-03:00||;True|2025-06-14T10:03:44.1955121-03:00||;True|2025-06-14T09:40:20.7651388-03:00||;False|2025-06-14T09:31:02.8001358-03:00||;True|2025-06-14T09:10:20.5294679-03:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
