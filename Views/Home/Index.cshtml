@@ -1,5 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Emprestimo Livros";
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer
+@{
+    ViewData["Title"] = localizer["title"];
 }
 @if (TempData["MensagemSucesso"] != null)
 {
@@ -11,8 +13,8 @@
     <div class="alert alert-danger text-light" role="alert">@TempData["MensagemErro"]</div>
 }
 <div class="text-center">
-    <h1 class="display-4">Empréstimos Online</h1>
-    <p>Abra um livro, deixe-se levar. Um novo mundo você vai encontrar!</p>
+    <h1 class="display-4">@localizer["title"]</h1>
+    <p>@localizer["sentece"]</p>
     <div>
         <i class="bi bi-book"></i>
     </div>

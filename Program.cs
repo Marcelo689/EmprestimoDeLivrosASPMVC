@@ -3,12 +3,18 @@ using EmprestimoLivros.Services.EmprestimoService;
 using EmprestimoLivros.Services.LoginService;
 using EmprestimoLivros.Services.SenhaService;
 using EmprestimoLivros.Services.SessaoService;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+builder.Services.AddControllersWithViews()
+    .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+    .AddDataAnnotationsLocalization();
 string connectionString = builder.Configuration.GetConnectionString("WebServer");
 builder.Services.AddDbContext<ApplicationDbContext>( options => options.UseSqlServer(connectionString));
 
@@ -25,7 +31,6 @@ builder.Services.AddSession(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -36,6 +41,14 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture("en-US"),
+    SupportedCultures = new[] { "en-US", "pt-BR" }.Select(c => new CultureInfo(c)).ToList(),
+    SupportedUICultures = new[] { "en-US", "pt-BR" }.Select(c => new CultureInfo(c)).ToList(),
+});
+
+app.UseRequestLocalization();
 app.UseRouting();
 
 app.UseAuthorization();

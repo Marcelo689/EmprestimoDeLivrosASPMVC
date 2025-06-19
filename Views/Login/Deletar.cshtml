@@ -1,5 +1,7 @@
 ﻿@using EmprestimoLivros.DTO
+@using Microsoft.AspNetCore.Mvc.Localization
 @model UsuarioLoginDTO
+@inject IViewLocalizer localizer 
 @if (TempData["MensagemSucesso"] != null)
 {
     <div class="alert alert-success text-light" role="alert">@TempData["MensagemSucesso"]</div>
@@ -16,13 +18,13 @@
     <h1>Cadastro de Usuários</h1>
     <form asp-action="Deletar" asp-controller="Login" method="post">
         <div class="mb-3">
-            <label for="email" class="form-label">Email:</label>
+            <label for="email" class="form-label">@localizer["email"]:</label>
             <input type="email" asp-for="Email" class="form-control" id="email">
         </div>
 
         <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-danger w-25 mx-2">Deletar Log in</button>
-            <a asp-controller="Login" asp-action="Login" class="btn w-25">Logar</a>
+            <button type="submit" class="btn btn-danger w-25 mx-2">@localizer["deleteLogIn"]</button>
+            <a asp-controller="Login" asp-action="Login" class="btn w-25">@localizer["login"]</a>
         </div>
     </form>
 </div>

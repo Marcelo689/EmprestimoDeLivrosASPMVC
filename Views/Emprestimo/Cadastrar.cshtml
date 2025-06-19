@@ -1,4 +1,6 @@
-﻿@model EmprestimosModel;
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@model EmprestimosModel;
+@inject IViewLocalizer localizer
 @{
     ViewData["title"] = "Cadastrar Empréstimo";
 }
@@ -17,26 +19,26 @@
     </div>
     <form asp-action="Cadastrar" asp-controller="Emprestimo" method="Post">
         <div class="mb-3">
-            <label for="Recebedor" class="form-label text-light">Recebedor</label>
-            <input type="text" class="form-control text-light" asp-for="Recebedor" id="Recebedor" placeholder="Quem está recebendo o Livro?">
+            <label for="Recebedor" class="form-label text-light">@localizer["receiver"]</label>
+            <input type="text" class="form-control text-light" asp-for="Recebedor" id="Recebedor" placeholder="@localizer["receiverPlaceholder"]">
             <span class="text-danger" asp-validation-for="Recebedor"></span>
         </div>
 
         <div class="mb-3">
-            <label for="Fornecedor" class="form-label  text-light">Fornecedor</label>
-            <input type="text" class="form-control text-light" asp-for="Fornecedor" id="Fornecedor" placeholder="Quem está fornecendo o Livro?">
+            <label for="Fornecedor" class="form-label  text-light">@localizer["supplier"]</label>
+            <input type="text" class="form-control text-light" asp-for="Fornecedor" id="Fornecedor" placeholder="@localizer["supplierPlaceholder"]?">
             <span class="text-danger" asp-validation-for="Fornecedor"></span>
         </div>
 
         <div class="mb-3">
-            <label for="LivroEmprestado" class="form-label  text-light">Livro Emprestado</label>
-            <input type="text" class="form-control text-light" asp-for="LivroEmprestado" id="LivroEmprestado" placeholder="Qual o livro que está sendo Emprestado">
+            <label for="LivroEmprestado" class="form-label  text-light">@localizer["book"]</label>
+            <input type="text" class="form-control text-light" asp-for="LivroEmprestado" id="LivroEmprestado" placeholder="@localizer["bookPlaceholder"]">
             <span class="text-danger" asp-validation-for="LivroEmprestado"></span>
         </div>
 
         <div class="d-flex gap-5 mt-5">
-            <button type="submit" class="btn btn-success">Adicionar</button>
-            <a class="btn btn-primary w-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
+            <button type="submit" class="btn btn-success">@localizer["add"]</button>
+            <a class="btn btn-primary w-50" asp-controller="Emprestimo" asp-action="Index">@localizer["goBack"]</a>
         </div>
     </form>
 </div>

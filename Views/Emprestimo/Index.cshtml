@@ -1,10 +1,11 @@
-﻿@model IEnumerable<EmprestimoDTO>
-
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@model IEnumerable<EmprestimoDTO>
+@inject IViewLocalizer localizer
 <div class="container">
     <div class="d-flex justify-content-between align-items-center mb-5">
-        <h1>Empréstimos</h1>
-        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Exportar"><i class="bi bi-file-earmark-plus mx-2"></i>Exportar</a>
-        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-file-earmark-plus mx-2"></i>Cadastrar novo Empréstimo</a>
+        <h1>@localizer["title"]</h1>
+        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Exportar"><i class="bi bi-file-earmark-plus mx-2"></i>@localizer["export"]</a>
+        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-file-earmark-plus mx-2"></i>@localizer["registerNew"]</a>
     </div>
     @if (TempData["MensagemSucesso"] != null)
     {
@@ -18,10 +19,10 @@
     <table id="Emprestimos" class="table table-light table-hover mt-5">
         <thead>
             <tr>
-                <th scope="col">Recebedor</th>
-                <th scope="col">Fornecedor</th>
-                <th scope="col">Livro</th>
-                <th scope="col">Ultima Atualização</th>
+                <th scope="col">@localizer["receiver"]</th>
+                <th scope="col">@localizer["supplier"]</th>
+                <th scope="col">@localizer["book"]</th>
+                <th scope="col">@localizer["lastUpdate"]</th>
                 <th scope="col"></th>
             </tr>
         </thead>
@@ -38,8 +39,8 @@
                         <td>
                             <a asp-controller="Emprestimo" asp-action="Editar" 
                                 asp-route-id="@emprestimo.Id"
-                               class="btn btn-warning mx-2"> <i class="bi bi-pencil-square mx-2"></i>Editar</a>
-                            <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2"><i class="bi bi-trash-fill mx-2"></i>Excluir</a>
+                               class="btn btn-warning mx-2"> <i class="bi bi-pencil-square mx-2"></i>@localizer["edit"]</a>
+                            <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2"><i class="bi bi-trash-fill mx-2"></i>@localizer["delete"]</a>
                         </td>
                     </tr>
                 }

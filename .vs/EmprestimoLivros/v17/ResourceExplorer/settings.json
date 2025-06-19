@@ -1,0 +1,22 @@
+{
+  "ShowEmptyProjects": true,
+  "SelectedGroups": [],
+  "ExpandedProjects": [
+    "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj"
+  ],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [
+    "name",
+    "type",
+    "neutral-value",
+    "neutral-comment",
+    "pt-BR",
+    "file-path",
+    "file-name",
+    "en-US"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "pt-BR"
+  ]
+}

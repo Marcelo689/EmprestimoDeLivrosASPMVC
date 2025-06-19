@@ -1,5 +1,7 @@
 ﻿@using EmprestimoLivros.DTO
+@using Microsoft.AspNetCore.Mvc.Localization
 @model UsuarioRegisterDTO
+@inject IViewLocalizer localizer
 @if (TempData["MensagemSucesso"] != null)
 {
     <div class="alert alert-success text-light" role="alert">@TempData["MensagemSucesso"]</div>
@@ -16,33 +18,33 @@
     <h1>Cadastro de Usuários</h1>
     <form asp-action="Registrar" asp-controller="Login" method="post">
         <div class="mb-3">
-            <label for="email" class="form-label">Email:</label>
+            <label for="email" class="form-label">@localizer["Email"]:</label>
             <input type="email" asp-for="Email" class="form-control" id="email">
         </div>
 
         <div class="mb-3">
-            <label for="nome" class="form-label">Nome:</label>
+            <label for="nome" class="form-label">@localizer["name"]:</label>
             <input type="text" asp-for="Nome" class="form-control" id="nome">
         </div>
 
         <div class="mb-3">
-            <label for="sobrenome" class="form-label">Sobrenome:</label>
+            <label for="sobrenome" class="form-label">@localizer["surname"]:</label>
             <input type="text" asp-for="Sobrenome" class="form-control" id="sobrenome">
         </div>
 
         <div class="mb-3">
-            <label for="senha" class="form-label">Senha:</label>
+            <label for="senha" class="form-label">@localizer["password"]:</label>
             <input type="password" asp-for="Senha" class="form-control" id="senha">
         </div>
 
         <div class="mb-3">
-            <label for="senha" class="form-label">Confirmar Senha:</label>
+            <label for="senha" class="form-label">@localizer["confirmPassword"]:</label>
             <input type="password" asp-for="ConfirmaSenha" class="form-control" id="senha">
         </div>
 
         <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-primary w-25 mx-2">Registrar</button>
-            <a asp-controller="Login" asp-action="Login" class="btn w-25">Logar</a>
+            <button type="submit" class="btn btn-primary w-25 mx-2">@localizer["register"]</button>
+            <a asp-controller="Login" asp-action="Login" class="btn w-25">@localizer["login"]</a>
         </div>
     </form>
 </div>

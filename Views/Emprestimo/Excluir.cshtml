@@ -1,36 +1,38 @@
-﻿@model EmprestimosModel;
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@model EmprestimosModel;
+@inject IViewLocalizer localizer
 @{
     ViewData["title"] = "Editar Empréstimo";
 }
 
 <div class="container bg-dark p-5 rounded-5">
     <div class="mb-5 text-center">
-        <h1 class="text-light">Excluir Empréstimo</h1>
+        <h1 class="text-light">@localizer["title"]</h1>
     </div>
     <form asp-action="Excluir" asp-controller="Emprestimo" method="Post">
         <input type="hidden" asp-for="Id" />
-        <h2 class="text-light">Tem certeza que deseja excluir?</h2>
+        <h2 class="text-light">@localizer["confirmDeleteTitle"]</h2>
         <div class="mb-3">
-            <label for="Recebedor" class="form-label text-light">Recebedor</label>
-            <input type="text" class="form-control text-light" asp-for="Recebedor" id="Recebedor" placeholder="Quem está recebendo o Livro?" disabled>
+            <label for="Recebedor" class="form-label text-light">@localizer["receiver"]</label>
+            <input type="text" class="form-control text-light" asp-for="Recebedor" id="Recebedor" placeholder="@localizer["receiverPlaceholder"]" disabled>
             <span class="text-danger" asp-validation-for="Recebedor"></span>
         </div>
 
         <div class="mb-3">
-            <label for="Fornecedor" class="form-label  text-light">Fornecedor</label>
-            <input type="text" class="form-control text-light" asp-for="Fornecedor" id="Fornecedor" placeholder="Quem está fornecendo o Livro?" disabled>
+            <label for="Fornecedor" class="form-label  text-light">@localizer["supplier"]</label>
+            <input type="text" class="form-control text-light" asp-for="Fornecedor" id="Fornecedor" placeholder="@localizer["supplierPlaceholder"]" disabled>
             <span class="text-danger" asp-validation-for="Fornecedor"></span>
         </div>
 
         <div class="mb-3">
-            <label for="LivroEmprestado" class="form-label  text-light">Livro Emprestado</label>
-            <input disabled type="text" class="form-control text-light" asp-for="LivroEmprestado" id="LivroEmprestado" placeholder="Qual o livro que está sendo Emprestado">
+            <label for="LivroEmprestado" class="form-label  text-light">@localizer["book"]</label>
+            <input disabled type="text" class="form-control text-light" asp-for="LivroEmprestado" id="LivroEmprestado" placeholder="@localizer["bookPlaceholder"]">
             <span class="text-danger" asp-validation-for="LivroEmprestado"></span>
         </div>
 
         <div class="d-flex gap-5 mt-5">
-            <button type="submit" class="btn btn-danger">Excluir</button>
-            <a class="btn btn-primary w-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
+            <button type="submit" class="btn btn-danger">@localizer["delete"]</button>
+            <a class="btn btn-primary w-50" asp-controller="Emprestimo" asp-action="Index">@localizer["goBack"]</a>
         </div>
     </form>
 </div>
