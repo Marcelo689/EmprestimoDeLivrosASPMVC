@@ -2,7 +2,7 @@
 @model EmprestimosModel;
 @inject IViewLocalizer localizer
 @{
-    ViewData["title"] = "Cadastrar Empréstimo";
+    ViewData["title"] = localizer["title"];
 }
 @if (TempData["MensagemSucesso"] != null)
 {
@@ -15,7 +15,7 @@
 }
 <div class="container bg-dark p-5 rounded-5">
     <div class="mb-5 text-center">
-        <h1 class="text-light">Cadastro de Empréstimos</h1>
+        <h1 class="text-light">@localizer["title"]</h1>
     </div>
     <form asp-action="Cadastrar" asp-controller="Emprestimo" method="Post">
         <div class="mb-3">

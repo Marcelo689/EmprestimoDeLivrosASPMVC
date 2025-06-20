@@ -145,6 +145,6 @@
     <value>Quem está fornecendo o livro?</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>Editar Livro</value>
+    <value>Deletar Livro</value>
   </data>
 </root>

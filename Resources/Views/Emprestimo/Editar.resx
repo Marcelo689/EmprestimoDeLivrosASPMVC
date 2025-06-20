@@ -123,6 +123,9 @@
   <data name="bookPlaceholder" xml:space="preserve">
     <value>What book is being lent?</value>
   </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
   <data name="goBack" xml:space="preserve">
     <value>Go Back</value>
   </data>

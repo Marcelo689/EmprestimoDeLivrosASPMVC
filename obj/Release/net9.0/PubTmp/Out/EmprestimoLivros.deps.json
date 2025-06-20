@@ -17,6 +17,14 @@
         },
         "runtime": {
           "EmprestimoLivros.dll": {}
+        },
+        "resources": {
+          "pt-BR/EmprestimoLivros.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "en-US/EmprestimoLivros.resources.dll": {
+            "locale": "en-US"
+          }
         }
       },
       "Azure.Core/1.38.0": {

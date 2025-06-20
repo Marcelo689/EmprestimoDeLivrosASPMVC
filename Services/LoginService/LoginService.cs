@@ -3,6 +3,7 @@ using EmprestimoLivros.DTO;
 using EmprestimoLivros.Models;
 using EmprestimoLivros.Services.SenhaService;
 using EmprestimoLivros.Services.SessaoService;
+using Microsoft.Extensions.Localization;
 using System.Net;
 using System.Net.Mail;
 
@@ -13,11 +14,13 @@ namespace EmprestimoLivros.Services.LoginService
         private ApplicationDbContext _context;
         private ISenhaInterface _senha;
         public ISessaoInterface _sessaoInterface { get; }
-        public LoginService(ApplicationDbContext context,ISenhaInterface senhaInterface, ISessaoInterface sessaoInterface)
+        private readonly IStringLocalizer<LoginService> _localizer;
+        public LoginService(ApplicationDbContext context,ISenhaInterface senhaInterface, ISessaoInterface sessaoInterface, IStringLocalizer<LoginService> localizer)
         {
             _context = context;
             _senha = senhaInterface;
             _sessaoInterface = sessaoInterface;
+            _localizer = localizer;
         }
 
         public async Task<ResponseModel<UsuarioModel>> RemoverUsuario(string email)
@@ -27,18 +30,18 @@ namespace EmprestimoLivros.Services.LoginService
             {
                 if(string.IsNullOrEmpty(email))
                 {
-                    response.Mensagem = "Email não encontrado!";
+                    response.Mensagem = _localizer["emailNotFound"];
                     response.Status = false;
                 }
 
                 var usuario = _context.Usuarios.FirstOrDefault(e => e.Email.ToLower() == email.ToLower());
                 if(usuario is null)
                 {
-                    response.Mensagem = "Email não encontrado!";
+                    response.Mensagem = _localizer["emailNotFound"];
                     response.Status = false;
                 }
 
-                response.Mensagem = "Login deletado com sucesso!";
+                response.Mensagem = _localizer["loginDeleted"];
                 _context.Usuarios.Remove(usuario);
                 _context.SaveChanges();
                 response.Dados = usuario;
@@ -60,21 +63,21 @@ namespace EmprestimoLivros.Services.LoginService
 
                 if(usuario is null)
                 {
-                    response.Mensagem = "Credenciais Inválidas";
+                    response.Mensagem = _localizer["invalidCredentials"];
                     response.Status = false;
                     return response;
                 }
 
                 if(!_senha.VerificaSenha(dto.Senha, usuario.SenhaHash, usuario.SenhaSalt))
                 {
-                    response.Mensagem = "Credenciais Inválidas";
+                    response.Mensagem = _localizer["invalidCredentials"];
                     response.Status = false;
                     return response;
                 }
 
                 //Criar sessão
                 _sessaoInterface.CriarSessao(usuario);
-                response.Mensagem = "Usuario logado com sucesso!";
+                response.Mensagem = _localizer["sucessOnLogin"];
 
                 return response;
             }
@@ -94,7 +97,7 @@ namespace EmprestimoLivros.Services.LoginService
             {
                 if (VerificarSeEmailExiste(dto))
                 {
-                    response.Mensagem = "Email já cadastrado";
+                    response.Mensagem = _localizer["emailAlreadyInUse"];
                     response.Status = false;
                     return response;
                 }
@@ -112,7 +115,7 @@ namespace EmprestimoLivros.Services.LoginService
                 _context.Add(modelo);
                 await _context.SaveChangesAsync();
 
-                response.Mensagem = "Usuario cadastrado com sucesso!";
+                response.Mensagem = _localizer["userRegistered"];
                 return response;
             }
             catch (Exception ex)

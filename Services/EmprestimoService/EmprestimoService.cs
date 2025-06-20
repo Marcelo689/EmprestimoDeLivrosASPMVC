@@ -1,15 +1,18 @@
 ﻿using EmprestimoLivros.Data;
 using EmprestimoLivros.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Localization;
 using System.Data;
 
 namespace EmprestimoLivros.Services.EmprestimoService
 {
     public class EmprestimoService : IEmprestimoInterface
     {
-        public EmprestimoService(ApplicationDbContext context)
+        private readonly IStringLocalizer<EmprestimoService> _localizer;
+        public EmprestimoService(ApplicationDbContext context, IStringLocalizer<EmprestimoService> localizer)
         {
             Context = context;
+            _localizer = localizer;
         }
 
         public ApplicationDbContext Context { get; }
@@ -21,7 +24,7 @@ namespace EmprestimoLivros.Services.EmprestimoService
             {
                 var listaEmprestimos = await Context.Emprestimos.ToListAsync();
                 responseModel.Dados = listaEmprestimos;
-                responseModel.Mensagem = "Dados coletados com sucesso!";
+                responseModel.Mensagem = _localizer["dataCollectedSuccessfull"];
 
                 return responseModel;
             }
@@ -41,7 +44,7 @@ namespace EmprestimoLivros.Services.EmprestimoService
             {
                 if (id == null)
                 {
-                    response.Mensagem = "Emprestimo não localizado!";
+                    response.Mensagem = _localizer["loanNotFound"];
                     response.Status = false;
                     return response;
                 }
@@ -50,13 +53,13 @@ namespace EmprestimoLivros.Services.EmprestimoService
 
                 if(emprestimo == null)
                 {
-                    response.Mensagem = "Emprestimo não localizado!";
+                    response.Mensagem = _localizer["loanNotFound"];
                     response.Status = false;
                     return response;
                 }
 
                 response.Dados = emprestimo;
-                response.Mensagem = "dados coletados com sucesso!";
+                response.Mensagem = _localizer["dataCollectedSuccessfull"];
 
                 return response;
 
@@ -101,7 +104,7 @@ namespace EmprestimoLivros.Services.EmprestimoService
             {
                 Context.Add(emprestimosModel);
                 Context.SaveChangesAsync();
-                response.Mensagem = "Cadastro realizado com sucesso!";
+                response.Mensagem = _localizer["registeredSuccessfull"];
                 return response;
             }
             catch (Exception ex)
@@ -128,7 +131,7 @@ namespace EmprestimoLivros.Services.EmprestimoService
 
                 Context.Update(emprestimo.Dados);
                 await Context.SaveChangesAsync();
-                response.Mensagem = "Edição realizada com sucesso!";
+                response.Mensagem = _localizer["successOnEdit"];
                 return response;
             }
             catch (Exception ex)
@@ -147,7 +150,7 @@ namespace EmprestimoLivros.Services.EmprestimoService
             {
                 Context.Remove(modelo);
                 await Context.SaveChangesAsync();
-                response.Mensagem = "Excluido com sucesso!";
+                response.Mensagem = _localizer["successOnDelete"];
                 return response;
             }
             catch (Exception ex)

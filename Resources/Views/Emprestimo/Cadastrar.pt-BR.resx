@@ -141,4 +141,7 @@
   <data name="supplierPlaceholder" xml:space="preserve">
     <value>Quem está fornecendo o livro?</value>
   </data>
+  <data name="title" xml:space="preserve">
+    <value>Cadastrar Usuário</value>
+  </data>
 </root>

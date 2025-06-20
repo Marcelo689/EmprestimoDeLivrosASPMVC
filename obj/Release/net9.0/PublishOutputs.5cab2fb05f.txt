@@ -4,6 +4,8 @@ C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\appse
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\EmprestimoLivros.dll
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\EmprestimoLivros.runtimeconfig.json
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\EmprestimoLivros.pdb
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\pt-BR\EmprestimoLivros.resources.dll
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\en-US\EmprestimoLivros.resources.dll
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\Azure.Core.dll
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\Azure.Identity.dll
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Release\net9.0\PubTmp\Out\ClosedXML.dll

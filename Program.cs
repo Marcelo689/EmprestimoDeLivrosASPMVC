@@ -48,7 +48,6 @@ app.UseRequestLocalization(new RequestLocalizationOptions
     SupportedUICultures = new[] { "en-US", "pt-BR" }.Select(c => new CultureInfo(c)).ToList(),
 });
 
-app.UseRequestLocalization();
 app.UseRouting();
 
 app.UseAuthorization();
