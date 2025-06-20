@@ -31,6 +31,9 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Emprestimo" asp-action="Index"><i class="bi bi-journals mx-2"></i>@localizer["loans"]</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="AboutMe"><i class="bi bi-house-fill mx-2"></i>@localizer["aboutMe"]</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Login" asp-action="Logout"><i class="bi bi-house-fill mx-2"></i>@localizer["logout"]</a>
                         </li>
                     </ul>
@@ -44,9 +47,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted bg-dark">
+    <footer class="border-top text-muted bg-dark">
         <div class="container text-light">
-            &copy; 2025 - EmprestimoLivros - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - Marcelo Jaeger
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

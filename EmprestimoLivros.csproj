@@ -7,12 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\img\api.png" />
+    <Content Remove="wwwroot\img\aspnet.png" />
+    <Content Remove="wwwroot\img\wpf.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Remove="Resources\Views\Login.pt-BR.resx" />
     <EmbeddedResource Remove="Resources\Views\Login.resx" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Resources\Views\Login\Login.resx" />
+    <None Include="wwwroot\img\api.png" />
+    <None Include="wwwroot\img\aspnet.png" />
+    <None Include="wwwroot\img\wpf.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,10 +37,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
   <ItemGroup>

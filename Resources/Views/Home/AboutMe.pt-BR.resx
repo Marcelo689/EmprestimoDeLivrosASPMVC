@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- ... mesmo schema e headers do arquivo anterior ... -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="title"><value>Sobre mim</value></data>
+  <data name="projects"><value>Projetos</value></data>
+  <data name="experience"><value>Experiência</value></data>
+  <data name="contacts"><value>Contato</value></data>
+  <data name="hero_title"><value>Olá, eu sou Marcelo Jaeger</value></data>
+  <data name="hero_subtitle"><value>Desenvolvedor .NET | Criando soluções inovadoras</value></data>
+  <data name="hero_button"><value>Veja meus projetos</value></data>
+  <data name="section_projects"><value>Projetos</value></data>
+  <data name="project_api"><value>API</value></data>
+  <data name="project_api_desc"><value>Aplicativo API.</value></data>
+  <data name="project_wpf"><value>WPF App</value></data>
+  <data name="project_wpf_desc"><value>Aplicação desktop robusta utilizando WPF.</value></data>
+  <data name="project_aspnet"><value>ASP.NET Core</value></data>
+  <data name="project_aspnet_desc"><value>Desenvolvimento web com ASP.NET Core.</value></data>
+  <data name="section_experience"><value>Experiência Profissional</value></data>
+  <data name="exp1_title"><value>Developer - Móvel na Caixa (2024)</value></data>
+  <data name="exp1_desc"><value>Desenvolvimento de um site em servidor Linux, utilizando Laravel, PHP e MySQL.</value></data>
+  <data name="exp2_title"><value>Desenvolvedor .NET - Universal Leaf Tobacco Company (2023 - 2024)</value></data>
+  <data name="exp2_desc"><value>Participação em equipe com mais de 40 profissionais de TI para desenvolvimento de novas funcionalidades.</value></data>
+  <data name="exp3_title"><value>Suporte e Desenvolvimento Desktop - Compumax SHOP (2021 - 2022)</value></data>
+  <data name="exp3_desc"><value>Criação de sistemas desktop com WPF e desenvolvimento de bots para WhatsApp.</value></data>
+  <data name="section_contact"><value>Contato</value></data>
+  <data name="contact_text"><value>Vamos conversar! Entre em contato através de:</value></data>
+</root>

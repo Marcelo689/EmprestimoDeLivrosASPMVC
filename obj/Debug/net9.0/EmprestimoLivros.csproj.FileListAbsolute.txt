@@ -168,7 +168,6 @@ C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\scopedcss\projectb
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\ikgopxf9ql-p6r79r30cw.gz
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\8jqa37uxf8-oq8r4nbcb2.gz
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\0pk6n85es2-61n19gt1b8.gz
-C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\zwz783n7nr-7yqp62cwmj.gz
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\l3eunof61o-agp80tu62r.gz
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\anzzca1apo-st1cbwfwo5.gz
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\7xpz83mrrb-unj9p35syc.gz
@@ -255,11 +254,14 @@ C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.R
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Emprestimo.Index.pt-BR.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Home.Index.pt-BR.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Login.Deletar.pt-BR.resources
-C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.SharedResource.resources
-C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.SharedResource.pt-BR.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Shared._Layout.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Shared._Layout.pt-BR.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Services.LoginService.LoginService.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Services.LoginService.LoginService.pt-BR.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Services.EmprestimoService.EmprestimoService.resources
 C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Services.EmprestimoService.EmprestimoService.pt-BR.resources
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Shared._LayoutDeslogada.resources
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Shared._LayoutDeslogada.pt-BR.resources
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\compressed\zwz783n7nr-8p0n75aoop.gz
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Home.AboutMe.resources
+C:\Users\marce\source\repos\EmprestimoLivros\obj\Debug\net9.0\EmprestimoLivros.Resources.Views.Home.AboutMe.pt-BR.resources

@@ -120,13 +120,7 @@
   <data name="aboutMe" xml:space="preserve">
     <value>About me</value>
   </data>
-  <data name="home" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="loans" xml:space="preserve">
-    <value>Loans</value>
-  </data>
-  <data name="logout" xml:space="preserve">
-    <value>Logout</value>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
   </data>
 </root>

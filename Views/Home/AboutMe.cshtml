@@ -1,0 +1,248 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer localizer
+
+@{
+    ViewData["Title"] = localizer["title"];
+}
+<h1>@ViewData["Title"]</h1>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav .brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    nav a {
+        margin: 0 1rem;
+        text-decoration: none;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #2563eb;
+    }
+
+    .hero {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #1e3a8a, #2563eb);
+        color: white;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero a {
+        background-color: #2563eb;
+        padding: 1rem 2rem;
+        color: white;
+        font-weight: 600;
+        border-radius: 9999px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+        background-color: #1e40af;
+    }
+
+    .section {
+        padding: 4rem 2rem;
+        background-color: #f5f5f5;
+    }
+
+    .section h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        color: antiquewhite;
+    }
+
+    .projects, .experiences {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .project, .experience {
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .project:hover, .experience:hover {
+        box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-content, .experience-content {
+        padding: 1.5rem;
+    }
+
+    .project-content h3, .experience-content h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .project-content p, .experience-content p {
+        color: #555;
+    }
+
+    .contact {
+        background-color: #2563eb;
+        color: white;
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+
+    .contact h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact p {
+        margin-bottom: 1rem;
+    }
+
+    .contact-icons {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+    .contact-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+    @@media(min-width: 768px) {
+        .projects {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .experiences {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @@media(min-width: 1024px) {
+        .projects {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+</style>
+
+<div>
+    <nav>
+        <div class="brand">Marcelo Jaeger</div>
+        <div>
+            <a href="#projetos">@localizer["projects"]</a>
+            <a href="#experiencia">@localizer["experience"]</a>
+            <a href="#contato">@localizer["contacts"]</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h1>@localizer["hero_title"]</h1>
+            <p>@localizer["hero_subtitle"]</p>
+            <a href="#projetos">@localizer["hero_button"]</a>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <h2>@localizer["section_projects"]</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="~/img/api.png" alt="Projeto Api">
+                <div class="project-content">
+                    <h3>@localizer["project_api"]</h3>
+                    <p>@localizer["project_api_desc"]</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="~/img/wpf.png" alt="Projeto WPF">
+                <div class="project-content">
+                    <h3>@localizer["project_wpf"]</h3>
+                    <p>@localizer["project_wpf_desc"]</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="~/img/aspnet.png" alt="Projeto ASP.NET Core">
+                <div class="project-content">
+                    <h3>@localizer["project_aspnet"]</h3>
+                    <p>@localizer["project_aspnet_desc"]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="section" style="background-color: #fff;">
+        <h2>@localizer["section_experience"]</h2>
+        <div class="experiences">
+            <div class="experience">
+                <div class="experience-content">
+                    <h3>@localizer["exp1_title"]</h3>
+                    <p>@localizer["exp1_desc"]</p>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experience-content">
+                    <h3>@localizer["exp2_title"]</h3>
+                    <p>@localizer["exp2_desc"]</p>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experience-content">
+                    <h3>@localizer["exp3_title"]</h3>
+                    <p>@localizer["exp3_desc"]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>@localizer["section_contact"]</h2>
+        <p>@localizer["contact_text"]</p>
+        <div class="contact-icons">
+            <a href="https://wa.me/551989925651" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+            <a href="https://www.linkedin.com/in/marcelo-jaeger" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+        </div>
+    </section>
+</div>
