@@ -19,7 +19,7 @@
                     "first": "Primeiro",
                     "last": "Último",
                     "next": "Próximo",
-                    "previous": "Previous"
+                    "previous": "Anterior"
                 }
             }
         }
