@@ -59,7 +59,6 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\img\print projeto.png
 C:\Users\marce\source\repos\EmprestimoLivros\wwwroot\css\Materia.css
 C:\Users\marce\source\repos\EmprestimoLivros\wwwroot\css\site.css
 C:\Users\marce\source\repos\EmprestimoLivros\wwwroot\favicon.ico

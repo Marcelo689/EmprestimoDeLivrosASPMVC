@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\emprestimolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:emprestimolivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -11,24 +23,12 @@
       "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\home\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\resources\\views\\home\\aboutme.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:resources\\views\\home\\aboutme.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\services\\emprestimoservice\\emprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:services\\emprestimoservice\\emprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181DAF99-C2F1-491E-89A7-4F9BA24BFCED}|EmprestimoLivros.csproj|c:\\users\\marce\\source\\repos\\emprestimolivros\\resources\\views\\shared\\_layout.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -174,32 +174,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_LayoutDeslogada.cshtml",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDeslogada.cshtml",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutDeslogada.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T17:06:33.915Z"
+              "WhenOpened": "2025-06-20T17:59:26.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AboutMe.cshtml",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\AboutMe.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\AboutMe.cshtml",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\AboutMe.cshtml",
-              "RelativeToolTip": "Views\\Home\\AboutMe.cshtml",
-              "ViewState": "AgIAAHkAAAAAAAAAAADwv3sAAAAaAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T17:47:48.668Z",
+              "WhenOpened": "2025-06-20T17:06:45.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_LayoutDeslogada.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDeslogada.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutDeslogada.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:06:33.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EmprestimoLivros.csproj",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
               "RelativeDocumentMoniker": "EmprestimoLivros.csproj",
@@ -207,24 +220,23 @@
               "RelativeToolTip": "EmprestimoLivros.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-20T17:59:49.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T17:06:45.642Z"
+              "WhenOpened": "2025-06-20T17:59:49.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AboutMe.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\AboutMe.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutMe.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\AboutMe.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutMe.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv3sAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:47:48.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AboutMe.resx",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Resources\\Views\\Home\\AboutMe.resx",
               "RelativeDocumentMoniker": "Resources\\Views\\Home\\AboutMe.resx",
@@ -235,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EmprestimoService.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Services\\EmprestimoService\\EmprestimoService.cs",
               "RelativeDocumentMoniker": "Services\\EmprestimoService\\EmprestimoService.cs",
@@ -267,18 +279,6 @@
               "RelativeToolTip": "Resources\\Views\\Shared\\_Layout.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2025-06-20T17:07:42.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\marce\\source\\repos\\EmprestimoLivros\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T17:59:26.429Z"
             },
             {
               "$type": "Document",
